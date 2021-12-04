@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix,accuracy_score
 
 def predict_Loan_Approval(list1):
-    df = pd.read_csv("https://github.com/Dhananjaylodhi/Loan_Prediction_App/blob/main/train_u6lujuX_CVtuZ9i.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/Dhananjaylodhi/Loan_Prediction_App/main/train_u6lujuX_CVtuZ9i.csv")
 
     df.drop(['Loan_ID'], axis=1, inplace=True)
 
